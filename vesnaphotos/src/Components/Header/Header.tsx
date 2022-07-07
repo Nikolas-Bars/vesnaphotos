@@ -1,20 +1,17 @@
 import React from 'react';
 import logo from '../../img/logo.png'
 import s from './Header.module.css'
+import ButtonBlock from "./ButtonBlock";
 
 
 const Header = () => {
     return (
         <div className={s.mainBlock}>
-            <div className={s.image}>
+            <div className={s.imageAndButtonBlock}>
                 <div>
                     <img className={s.logo} src={logo}/>
                 </div>
-                <div className={s.buttonBlock}>
-                    <div>Главная</div>
-                    <div>Галерея</div>
-                    <div>Контакты</div>
-                </div>
+<ButtonBlock/>
             </div>
 
         </div>
