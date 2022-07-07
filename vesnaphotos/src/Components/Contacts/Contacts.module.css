@@ -2,9 +2,11 @@
     margin: 80px;
 }
 .text{
+    font-family: 'Prata', serif;
     font-size: 1.7em;
 }
 .phoneNumber{
     margin-top: 30px;
     font-size: 1.8em;
+    font-family: 'Prata', serif;
 }

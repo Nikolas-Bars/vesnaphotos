@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './Contacts.module.css'
 import {motion} from 'framer-motion'
 
@@ -15,6 +15,7 @@ const textAnimation = {
 }
 
 const Contacts = () => {
+
     return (
         <motion.div
             custom={1}
@@ -22,6 +23,8 @@ const Contacts = () => {
             initial='hidden'
             whileInView='visible'
             className={s.main}>
+
+
 
             <div   className={s.text}>Наталья Весна</div>
             <div className={s.text}>свадебный и портретный фотограф</div>

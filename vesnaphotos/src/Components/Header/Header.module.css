@@ -44,9 +44,20 @@
     transition: 0.3s linear;
 }
 
+.select{
+    background-color: white;
+    font-size: 0.6em;
+    color: black;
+}
+.selectItem {
+    padding: 10px;
+    margin: 5px;
 
-
-
+}
+.selectItem:hover {
+    color: #dbd7d7;
+    transition: 0.1s linear;
+}
 
 
 
