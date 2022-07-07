@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import s from './Slider.module.css'
-import one from '../../img/4.jpg'
+import one from '../../img/9.jpg'
 import two from '../../img/5.jpg'
-import three from '../../img/6.jpg'
+import three from '../../img/8.jpg'
+import seven from '../../img/7.jpg'
 
 const Slider = () => {
 
@@ -24,10 +25,11 @@ const Slider = () => {
     }, [])
 
 
+
     const img = [
-        <img alt={'image'} style={{width: '100%', verticalAlign: 'text-top'}} key={one} src={one}/>,
-        <img alt={'image'} style={{width: '100%',verticalAlign: 'text-top'}} key={two} src={two}/>,
+        <img alt={'image'} style={{width: '100%',verticalAlign: 'text-top'}} key={seven} src={seven}/>,
         <img alt={'image'} style={{width: '100%',verticalAlign: 'text-top'}} key={three} src={three}/>,
+        <img alt={'image'} style={{width: '100%', verticalAlign: 'text-top'}} key={one} src={one}/>,
     ]
 
         // Вычисляем индекс предыдущего слайда
@@ -38,6 +40,7 @@ const Slider = () => {
     return (
         <div className={s.mainBlock}>
             <div className={s.slider}>
+
                 <div className={`${s.sliderImg} ${s.sliderImgPrev}`}
                      key={prevImgIndex}>
                     <div style={{backgroundImage: `${img[prevImgIndex]}`}}></div>

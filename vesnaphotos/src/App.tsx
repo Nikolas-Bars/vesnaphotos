@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Header from "./Components/Header/Header";
 import Slider from "./Components/Slider/Slider";
+import Contacts from "./Components/Contacts/Contacts";
+import {Footer} from "./Components/Footer/Footer";
 
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
     <div className="App">
      <Header />
      <Slider/>
+     <Contacts />
+     <Footer />
     </div>
   );
 }
