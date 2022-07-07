@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import s from "./Header.module.css";
 
+
 const ButtonBlock = () => {
 
     const [selectToggle, setSelectToggle] = useState<boolean>(false)
@@ -19,8 +20,9 @@ const ButtonBlock = () => {
             <div className={s.button}>ПОРТФОЛИО</div>
             <div className={s.button}>КОНТАКТЫ</div>
             <div onMouseOut={onMouseOutHandler} onMouseOver={onMouseOverHandler} className={s.button}>РЕКОМЕНДАЦИИ
+
                 {selectToggle &&
-                <div  className={s.select}>
+                <div className={s.select}>
                     <div className={s.selectItem}>ВИЗАЖИСТЫ</div>
                     <div className={s.selectItem}>ФОТОСТУДИИ</div>
                     <div className={s.selectItem}>ПРОКАТ ПЛАТЬЕВ</div>

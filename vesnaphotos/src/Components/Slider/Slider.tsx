@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import s from './Slider.module.css'
 import one from '../../img/9.jpg'
-import two from '../../img/5.jpg'
 import three from '../../img/8.jpg'
 import seven from '../../img/7.jpg'
 
