@@ -25,9 +25,9 @@ const Slider = () => {
 
 
     const img = [
-        <img alt={'image'} key={one} src={one}/>,
-        <img alt={'image'} key={two} src={two}/>,
-        <img alt={'image'} key={three} src={three}/>,
+        <img alt={'image'} style={{width: '100%', verticalAlign: 'text-top'}} key={one} src={one}/>,
+        <img alt={'image'} style={{width: '100%',verticalAlign: 'text-top'}} key={two} src={two}/>,
+        <img alt={'image'} style={{width: '100%',verticalAlign: 'text-top'}} key={three} src={three}/>,
     ]
 
         // Вычисляем индекс предыдущего слайда

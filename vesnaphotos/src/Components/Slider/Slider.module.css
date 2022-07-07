@@ -4,7 +4,7 @@
 
 .slider {
     position: relative;
-    width: 70%;
+    width: 90%;
     height: 500px;
     margin: auto;
     box-sizing: border-box;
@@ -13,6 +13,8 @@
     overflow: hidden;
     animation: fade 4s linear infinite;
     animation-delay: 0s;
+    text-align: center;
+    justify-content: center;
 }
 
 .slider-img {
