@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 90px auto 0 auto;
+
+    justify-content: space-around;
+    padding: 40px;
+    max-width: 90%;
+}
+
+
+.p_1{
+    min-width: 32.2%;
+    margin: 0 7px;
+}
+
+.p_1 img{
+    min-width: 100%;
+    max-width: 100%;
+
+}
+
+
+
+
+.bottomImageBlock{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 90%;
+}
+
+
+.p_2 {
+    max-width: 42.5%;
+    margin: 7px 10px;
+}
+
+.p_2 img{
+    max-width: 100%;
+
+}
+
+
+.text {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-top: 8px;
+}
