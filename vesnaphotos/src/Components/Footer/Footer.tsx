@@ -18,7 +18,7 @@ const textAnimation = {
 
 export const Footer = () => {
     return (
-        <motion.p
+        <motion.div
             custom={1}
             variants={textAnimation}
             initial='hidden'
@@ -34,6 +34,6 @@ export const Footer = () => {
                 className={s.imageBlock}>Профессиональный фотограф Наталья Весна | Москва | +7 (999) 827 29 34 |   </span><br/>
             <span className={s.imageBlock}>Свадебный фотограф | Детский фотограф | Семейный фотограф |  Фотограф на крещение |   </span>
             <div>Фотосессия беременности</div>
-        </motion.p>
+        </motion.div>
     );
 };
