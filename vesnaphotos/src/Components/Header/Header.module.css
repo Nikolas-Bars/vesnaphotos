@@ -18,6 +18,7 @@
     animation: example 1s ease-in-out;
 }
 
+
 @keyframes example {
     0% {transform: translateY(-500px)}
     100% {transform: translateY(0)}
@@ -64,6 +65,7 @@
 }
 
 
+
 /*анимация плавности для селекта*/
 
 .selectItem{
@@ -90,11 +92,30 @@
 
 
 
+/*ОБЩИЕ МЕДИА-ЗАПРОСЫ*/
 
 
 
+@media screen and (max-width: 1040px){
+    .mainBlock{
+        text-align: left;
+        height: 200px;
+    }
+    .buttonBlock{
+        display: none;
+    }
+}
+@media screen and (max-width: 780px){
+    .logo{
+        height: 100px;
+        margin-top: -25px;
+    }
+    .mainBlock{
+        text-align: left;
+        height: 15px;
+    }
 
-
+}
 
 
 

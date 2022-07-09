@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import s from './Slider.module.css'
-import one from '../../img/9.jpg'
-import three from '../../img/8.jpg'
-import seven from '../../img/7.jpg'
+import one from '../../img/forslider3.jpg'
+import three from '../../img/forslider2.jpg'
+import seven from '../../img/8.jpg'
+import sd from '../../img/forslider.jpg'
 
 const Slider = () => {
 
@@ -26,7 +27,7 @@ const Slider = () => {
 
 
     const img = [
-        <img alt={'image'} style={{width: '100%',verticalAlign: 'text-top'}} key={seven} src={seven}/>,
+        <img alt={'image'} style={{width: '100%',verticalAlign: 'text-top'}} key={sd} src={sd}/>,
         <img alt={'image'} style={{width: '100%',verticalAlign: 'text-top'}} key={three} src={three}/>,
         <img alt={'image'} style={{width: '100%', verticalAlign: 'text-top'}} key={one} src={one}/>,
     ]

@@ -1,5 +1,5 @@
 .main{
-    margin: 80px;
+    margin: 180px;
 }
 .text{
     font-family: 'Prata', serif;
@@ -9,4 +9,10 @@
     margin-top: 30px;
     font-size: 1.8em;
     font-family: 'Prata', serif;
+}
+
+@media screen and (max-width: 1450px){
+    .main{
+        margin: 0 auto 80px auto;
+    }
 }

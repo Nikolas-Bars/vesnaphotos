@@ -30,10 +30,9 @@ export const Footer = () => {
                <a href={'https://www.instagram.com/vesna_photos/'}><img style={{margin: '5px'}} width={25} src={instaLogo}/></a>
                <a href={'https://vk.com/vesna_photos'}><img style={{margin: '5px'}} width={25} src={vkLogo}/></a></div>
 
-            <span
-                className={s.imageBlock}>Профессиональный фотограф Наталья Весна | Москва | +7 (999) 827 29 34 |   </span><br/>
-            <span className={s.imageBlock}>Свадебный фотограф | Детский фотограф | Семейный фотограф |  Фотограф на крещение |   </span>
-            <div>Фотосессия беременности</div>
+            <span className={s.imageBlock}>Профессиональный фотограф Наталья Весна |<br/> Москва | +7 (999) 827 29 34 |<br/>
+            Свадебный фотограф | Детский фотограф | Семейный фотограф |  Фотограф на крещение |  <br/> Фотосессия беременности</span>
+
         </motion.div>
     );
 };
