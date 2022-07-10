@@ -60,4 +60,15 @@
 .text:hover{
     color: #6e9273;
 }
+@media screen and (max-width: 900px){
+    .text{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 545px){
+    .text{
+        font-size: 18px;
+    }
+}
 

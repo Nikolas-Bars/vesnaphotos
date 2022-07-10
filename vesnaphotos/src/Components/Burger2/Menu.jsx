@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Menu.module.css'
+import {NavLink} from "react-router-dom";
 
 const Menu = ({header, items, setMenuActive, menuActive}) => {
     return (
@@ -8,10 +9,10 @@ const Menu = ({header, items, setMenuActive, menuActive}) => {
             <div className={s.blur}/>
             <div className={s.menu_content} onClick={e => e.stopPropagation()}>
                 <ul>
-                    <li>ГЛАВНАЯ</li>
-                    <li>ПОРТФОЛИО</li>
-                    <li>КОНТАКТЫ</li>
-                    <li>РЕКОМЕНДАЦИИ</li>
+                    <li><NavLink to={'/main'} onClick={()=>setMenuActive(false)}>ГЛАВНАЯ</NavLink></li>
+                    <li><NavLink to={'/portfolio'} onClick={()=>setMenuActive(false)}>ПОРТФОЛИО</NavLink></li>
+                    <li><NavLink to={'/contacts'} onClick={()=>setMenuActive(false)}>КОНТАКТЫ</NavLink></li>
+                    <li><NavLink to={'/recommendations'} onClick={()=>setMenuActive(false)}>РЕКОМЕНДАЦИИ</NavLink></li>
                 </ul>
             </div>
         </div>

@@ -2,7 +2,7 @@
   "name": "vesnaphotos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https,://nikolas-bars.github.io/vesnaphotos",
+  "homepage": "https://nikolas-bars.github.io/vesnaphotos",
   "dependencies": {
     "@farbenmeer/react-spring-slider": "^1.5.2",
     "@testing-library/jest-dom": "^5.14.1",
