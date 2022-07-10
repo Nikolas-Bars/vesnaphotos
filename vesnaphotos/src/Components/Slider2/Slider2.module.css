@@ -1,0 +1,32 @@
+.mainBlock{
+    min-width: 90%;
+    margin: 0 auto;
+
+}
+.sliderContainer{
+    max-width: 100%;
+
+    margin: 0 70px;
+}
+.slide1Block{
+    margin: 0 auto;
+}
+.slide1Block img {
+    min-width: 100%;
+    max-width: 100%;
+    cursor: pointer;
+}
+@media screen and (max-width: 1040px){
+    .mainBlock{
+        position: inherit;
+        margin: 30px auto;
+
+    }
+}
+@media screen and (max-width: 780px){
+    .mainBlock{
+        position: inherit;
+        margin: 140px auto;
+
+    }
+}

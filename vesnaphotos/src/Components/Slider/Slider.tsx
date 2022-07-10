@@ -39,6 +39,7 @@ const Slider = () => {
 
     return (
         <div className={s.mainBlock}>
+
             <div className={s.slider}>
 
                 <div className={`${s.sliderImg} ${s.sliderImgPrev}`}

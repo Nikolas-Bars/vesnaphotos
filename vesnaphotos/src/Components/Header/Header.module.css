@@ -104,11 +104,13 @@
     .buttonBlock{
         display: none;
     }
+
 }
 @media screen and (max-width: 780px){
     .logo{
         height: 100px;
         margin-top: -25px;
+
     }
     .mainBlock{
         text-align: left;
