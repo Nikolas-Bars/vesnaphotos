@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vesnaphotos/static/css/main.222e2b3c.css",
-    "main.js": "/vesnaphotos/static/js/main.4188dee2.js",
+    "main.css": "/vesnaphotos/static/css/main.8ebc108d.css",
+    "main.js": "/vesnaphotos/static/js/main.bd81037e.js",
     "static/js/787.ee0c3a27.chunk.js": "/vesnaphotos/static/js/787.ee0c3a27.chunk.js",
     "static/media/02.jpg": "/vesnaphotos/static/media/02.57475185afa7529cb2b2.jpg",
     "static/media/03.jpg": "/vesnaphotos/static/media/03.5e01118ba3e542211f43.jpg",
@@ -16,12 +16,12 @@
     "static/media/instagram.png": "/vesnaphotos/static/media/instagram.ac32ec0a111aeba03298.png",
     "static/media/vk.png": "/vesnaphotos/static/media/vk.2b1dcb01de20e1a0c44a.png",
     "index.html": "/vesnaphotos/index.html",
-    "main.222e2b3c.css.map": "/vesnaphotos/static/css/main.222e2b3c.css.map",
-    "main.4188dee2.js.map": "/vesnaphotos/static/js/main.4188dee2.js.map",
+    "main.8ebc108d.css.map": "/vesnaphotos/static/css/main.8ebc108d.css.map",
+    "main.bd81037e.js.map": "/vesnaphotos/static/js/main.bd81037e.js.map",
     "787.ee0c3a27.chunk.js.map": "/vesnaphotos/static/js/787.ee0c3a27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.222e2b3c.css",
-    "static/js/main.4188dee2.js"
+    "static/css/main.8ebc108d.css",
+    "static/js/main.bd81037e.js"
   ]
 }
