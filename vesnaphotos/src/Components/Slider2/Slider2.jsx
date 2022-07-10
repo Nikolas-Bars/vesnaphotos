@@ -6,7 +6,7 @@ import three from '../../img/forslider2.jpg'
 import seven from '../../img/8.jpg'
 import sd from '../../img/forslider.jpg'
 
-export const SimpleSlider =()=> {
+export const SimpleSlider = () => {
 
     // Индекс текущего слайда
     const [activeIndex, setActiveIndex] = useState(0);
@@ -26,36 +26,37 @@ export const SimpleSlider =()=> {
     }, [])
 
     const img = [
-        <img alt={'image'} style={{width: '100%',verticalAlign: 'text-top'}} key={sd} src={sd}/>,
-        <img alt={'image'} style={{width: '100%',verticalAlign: 'text-top'}} key={three} src={three}/>,
+        <img alt={'image'} style={{width: '100%', verticalAlign: 'text-top'}} key={sd} src={sd}/>,
+        <img alt={'image'} style={{width: '100%', verticalAlign: 'text-top'}} key={three} src={three}/>,
         <img alt={'image'} style={{width: '100%', verticalAlign: 'text-top'}} key={one} src={one}/>,
     ]
 
 
     const settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         autoplay: true,
-        dotsClass: 'slick-dots'
-        }
 
-        return (
-            <div className={s.mainBlock}>
-                <div className={s.sliderContainer}>
-                    <Slider {...settings}>
-                        <div className={s.slide1Block}>
-                            <img src={one}/>
-                        </div>
-                        <div className={s.slide1Block}>
-                            <img src={three}/>
-                        </div>
-                        <div className={s.slide1Block}>
-                            <img src={sd}/>
-                        </div>
-                    </Slider></div>
-            </div>
-        );
+
     }
+
+    return (
+        <div className={s.mainBlock}>
+            <div className={s.sliderContainer}>
+                <Slider {...settings} >
+                    <div className={s.slide1Block}>
+                        <img src={one}/>
+                    </div>
+                    <div className={s.slide1Block}>
+                        <img src={three}/>
+                    </div>
+                    <div className={s.slide1Block}>
+                        <img src={sd}/>
+                    </div>
+                </Slider></div>
+        </div>
+    );
+}
