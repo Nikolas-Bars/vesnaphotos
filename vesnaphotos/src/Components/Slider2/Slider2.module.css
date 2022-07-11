@@ -10,9 +10,9 @@
 
 }
 .slide1Block{
-    margin: 0 auto 50px auto;
+    margin: 0 auto 30px auto;
     width: 100%;
-    border: 1px solid red;
+
 
 }
 .slide1Block img {
@@ -24,7 +24,6 @@
     .mainBlock{
         position: inherit;
         margin: 30px auto 30px auto;
-
     }
 }
 @media screen and (max-width: 780px){

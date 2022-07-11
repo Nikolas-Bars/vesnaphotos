@@ -40,7 +40,6 @@ export const SimpleSlider = () => {
         slidesToScroll: 1,
         autoplay: true,
 
-
     }
 
     return (

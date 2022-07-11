@@ -1,5 +1,5 @@
 .main{
-    margin: 180px;
+    margin: 180px auto 100px auto;
 }
 .text{
     font-family: 'Prata', serif;
@@ -13,6 +13,6 @@
 
 @media screen and (max-width: 1450px){
     .main{
-        margin: 130px auto 130px auto;
+        margin: 130px auto 100px auto;
     }
 }
