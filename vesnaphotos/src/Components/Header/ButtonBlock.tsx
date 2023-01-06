@@ -19,7 +19,7 @@ const ButtonBlock = () => {
         <div className={s.buttonBlock}>
             <div className={s.button}><NavLink to={'/main'}>ГЛАВНАЯ</NavLink></div>
             <div className={s.button}><NavLink to={'/portfolio'}>ПОРТФОЛИО</NavLink></div>
-            <div className={s.button}>КОНТАКТЫ</div>
+            <div className={s.button}><NavLink to={'/contacts'}>КОНТАКТЫ</NavLink></div>
             <div onMouseOut={onMouseOutHandler} onMouseOver={onMouseOverHandler} className={s.button}>РЕКОМЕНДАЦИИ
 
                 {selectToggle &&

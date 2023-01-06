@@ -11,8 +11,33 @@
     font-family: 'Prata', serif;
 }
 
+.div_img{
+    max-width: 100%;
+    margin: 65px auto;
+}
+.div_img img {
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+
 @media screen and (max-width: 1450px){
     .main{
         margin: 130px auto 100px auto;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    .div_img{
+        margin: 70px auto 100px auto;
+    }
+}
+@media screen and (max-width: 780px){
+    .div_img{
+        margin: 140px auto 50px auto;
+        max-width: 190px;
+    }
+    .div_img img {
+        max-width: 100%;
     }
 }

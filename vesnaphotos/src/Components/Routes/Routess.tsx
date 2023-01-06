@@ -8,12 +8,14 @@ import LoveStory from "../Portfolio/Pages/LoveStory";
 import Wedding from "../Portfolio/Pages/Wedding";
 import Family from "../Portfolio/Pages/Family";
 import Pregnancy from "../Portfolio/Pages/Pregnancy";
+import ContactsPage from "../Contacts/ContactsPage";
 
 const Routess = () => {
     return (
         <Routes>
             <Route path='/' element={<MainPage/>}/>
             <Route path='/main' element={<MainPage/>}/>
+            <Route path='/contacts' element={<ContactsPage/>}/>
             <Route path='/portfolio' element={<Portfolio/>}/>
             <Route path='/portraits' element={<Portraits/>}/>
             <Route path='/lovestory' element={<LoveStory/>}/>
